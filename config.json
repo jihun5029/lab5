@@ -1,0 +1,13 @@
+{
+    "trace_file": "trace_read/input/trace_file_10000.txt",
+    "result_file": "trace_read/result/result_file_10000.txt",
+    "cache": {
+        "l1_cache_size": 8192,  
+        "l1_assoc": 4,
+        "l2_cache_size": 131072, 
+        "l2_assoc": 8,
+        "block_size": 64,
+        "replacement_policy": "LRU"
+    },
+    "tlb_size": 16
+}
