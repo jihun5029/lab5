@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
     // Below //   
 
 
-    // An object of the class needs to be declared here //
+    // It's free to write the code here //
 
     // Above //
 
