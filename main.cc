@@ -47,10 +47,11 @@ int main(int argc, char** argv) {
     // Below //   
 
 
-    CacheHierarchy cache_hierarchy(l1_cache_size, block_size, l1_assoc, l2_cache_size, block_size, l2_assoc, replacement_policy); 
-    TLB tlb(tlb_size);
-    TraceReader reader(trace_file);
-    Instruction instr;
+    // An object of the class needs to be declared here //
+
+    // Above //
+
+    // Below //
 
     int l1_hits = 0, l1_misses = 0, l2_hits = 0, l2_misses = 0;
     int total_instructions = 0, l2_accesses = 0;
